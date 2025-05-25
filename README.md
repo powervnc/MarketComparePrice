@@ -39,6 +39,7 @@ This is a Spring Boot application built with **Java 21**, using **PostgreSQL**, 
 - Clone the repo directly
 - Add files as need (discounts, prices files)
 - Before running the first time, add all the necessary brands, stores, categories in the corresponding files
+- Create a database in postgres ( I used pgAdmin) and complete the relevant information inside application.properties
 
 
 ## Assumptions
