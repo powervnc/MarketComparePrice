@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "a129a234-04df-4af4-930f-1f68c93984a3",
+		"name": "PriceHistoryController",
+		"description": "Endpoints for fetching product price history",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33960802"
+	},
+	"item": [
+		{
+			"name": "Get Price History by Product ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/price-history/product/12345",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"price-history",
+						"product",
+						"12345"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

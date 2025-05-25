@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "ecb9b903-1025-4e06-9155-9b524216faeb",
+		"name": "UserTargetPriceController",
+		"description": "Endpoints for setting user target prices and getting price alerts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33960802"
+	},
+	"item": [
+		{
+			"name": "Set Target Price",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": \"user123\",\n  \"productId\": \"prod456\",\n  \"targetPrice\": 19.99\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/user-target-price",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-target-price"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Alerts for User in Store",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user-target-price/alerts/user123/store789",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-target-price",
+						"alerts",
+						"user123",
+						"store789"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

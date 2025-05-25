@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "5bf5ae0e-b05c-4452-842d-914ec460017b",
+		"name": "Basket API",
+		"description": "API call to get all shopping lists for a user",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33960802"
+	},
+	"item": [
+		{
+			"name": "Get All Shopping Lists for User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/basket/user/USER_ID/all-shopping-lists",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"basket",
+						"user",
+						"USER_ID",
+						"all-shopping-lists"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
