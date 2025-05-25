@@ -1,0 +1,5 @@
+CREATE TABLE BASKET (
+    basket_id VARCHAR(255) PRIMARY KEY,
+    user_id VARCHAR(255) NOT NULL,
+    CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES APP_USER(user_id)
+);
