@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "8febd85d-84d2-43c3-9ede-e77a178ef7f6",
+		"name": "Price Comparator API",
+		"description": "Collection for Price Comparator endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33960802"
+	},
+	"item": [
+		{
+			"name": "Get Best Price for lapte zuzu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/best-price?productName=lapte zuzu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"best-price"
+					],
+					"query": [
+						{
+							"key": "productName",
+							"value": "lapte zuzu"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
